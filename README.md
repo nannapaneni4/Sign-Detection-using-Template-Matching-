@@ -9,5 +9,7 @@ Matching and Image Pyramid are used to do this. An example of STOP sign and Pede
 This code takes a prototype stop sign and Pedestrian crossing sign and creates a 4-level gaussian pyramid out of it by downsampling (read more here: https://en.wikipedia.org/wiki/Pyramid_(image_processing)) then it slides the pyramid one slice at a time over the target image, computing the normalized cross correlation (NCC). The slice with the higher NCC value is determined to be the stop or pedestraian crossing sign.
 
 # Results
-![Stop sign result](https://github.com/nannapaneni4/Sign-Detection-using-Template-Matching-/blob/main/Images/stop result.jpg)
+![Stop sign result](https://github.com/nannapaneni4/Sign-Detection-using-Template-Matching-/blob/main/Images/stopresult.jpg)
+![Stop sign template](https://github.com/nannapaneni4/Sign-Detection-using-Template-Matching-/blob/main/Images/PedestrainCrossingresult.png)
+
 
